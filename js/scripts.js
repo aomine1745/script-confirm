@@ -1,7 +1,7 @@
-var btn = document.getElementById('btn');
-var p = document.getElementById('p');
-var result;
+const btn = document.getElementById('btn')
+const p = document.getElementById('p')
+
 btn.addEventListener('click', () => {
-	result = confirm('Aceptas?');
-	result ? p.innerHTML = 'Bienvenido al lado oscuro :D !' : p.innerHTML = 'GG :(';
-});
+	const result = confirm('Aceptas?')
+	result ? p.innerHTML = 'Welcome :D !' : p.innerHTML = 'GG :('
+})
